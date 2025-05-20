@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Seagram';
+  src: url('recursos/Fuentes/Seagram tfb.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000, #0b1a2e, #3b0012);
+  color: #e6e6e6;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: 'Seagram', serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #d10000;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+main {
+  padding: 3rem 8%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  margin-bottom: 4rem;
+  border-left: 2px solid rgba(255, 0, 0, 0.2);
+  padding-left: 1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+a {
+  color: #ff3e3e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #aa0000, transparent);
+  margin: 3rem 0;
+}
+
+blockquote {
+  border-left: 3px solid #aa0000;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+.subtitulo {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #cccccc;
+}
